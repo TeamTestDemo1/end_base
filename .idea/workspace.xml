@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebe11869-a275-413a-9a53-493a64e7c07f" name="变更" comment="数据库修改后的项目，请大家重新以这个为基础写代码">
+    <list default="true" id="ebe11869-a275-413a-9a53-493a64e7c07f" name="变更" comment="adda">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1786befd-ce7f-410c-bfaa-b98a45fd10f4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1786befd-ce7f-410c-bfaa-b98a45fd10f4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1786befd-ce7f-410c-bfaa-b98a45fd10f4/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1786befd-ce7f-410c-bfaa-b98a45fd10f4/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac896d2-bd6b-4b88-9caf-e63614d871f7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac896d2-bd6b-4b88-9caf-e63614d871f7/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac896d2-bd6b-4b88-9caf-e63614d871f7/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac896d2-bd6b-4b88-9caf-e63614d871f7/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/common/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/common/MybatisPlusConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +37,15 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="luo" />
       </map>
     </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -100,17 +89,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application (1)">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="end_base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
@@ -168,7 +146,9 @@
       <workItem from="1665905956053" duration="21514000" />
       <workItem from="1666058670396" duration="12924000" />
       <workItem from="1666265375213" duration="604000" />
-      <workItem from="1666266034612" duration="293000" />
+      <workItem from="1666266034612" duration="1350000" />
+      <workItem from="1666267453273" duration="194000" />
+      <workItem from="1666334978886" duration="219000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交后端代码">
       <created>1663316686582</created>
@@ -198,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665752477918</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adda">
+      <created>1666266617435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666266617435</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +202,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="zhangjia" />
                       </list>
                     </value>
                   </entry>
@@ -246,7 +233,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交后端代码" />
     <MESSAGE value="数据库修改后的项目，请大家重新以这个为基础写代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据库修改后的项目，请大家重新以这个为基础写代码" />
+    <MESSAGE value="adda" />
+    <option name="LAST_COMMIT_MESSAGE" value="adda" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
