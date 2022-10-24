@@ -3,10 +3,22 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BeansEndpointTabSettings">
+    <option name="diagramMode" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebe11869-a275-413a-9a53-493a64e7c07f" name="变更" comment="adda">
+    <list default="true" id="ebe11869-a275-413a-9a53-493a64e7c07f" name="变更" comment="test">
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/end_base" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/ProjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Project.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +101,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="end_base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
@@ -148,7 +173,8 @@
       <workItem from="1666265375213" duration="604000" />
       <workItem from="1666266034612" duration="1350000" />
       <workItem from="1666267453273" duration="194000" />
-      <workItem from="1666334978886" duration="219000" />
+      <workItem from="1666334978886" duration="4050000" />
+      <workItem from="1666598921623" duration="4920000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交后端代码">
       <created>1663316686582</created>
@@ -185,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666266617435</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test">
+      <created>1666338646067</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666338646067</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +267,8 @@
     <MESSAGE value="第一次提交后端代码" />
     <MESSAGE value="数据库修改后的项目，请大家重新以这个为基础写代码" />
     <MESSAGE value="adda" />
-    <option name="LAST_COMMIT_MESSAGE" value="adda" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
