@@ -19,7 +19,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URLEncoder;
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -74,47 +73,47 @@ public class ProjectController {
      * @throws IOException
      */
 
-    @PostMapping("/import")
-    public Boolean imp(MultipartFile file) throws Exception{
-        InputStream inputStream =file.getInputStream();
-        ExcelReader reader = ExcelUtil.getReader(inputStream);
-    //通过javabean的方式读取Excel对象，要求表头必须英文，跟javabean属性对应
-        //List<Project> list =reader.readAll(Project.class);
-        List<Project> list = reader.read(1,1,Project.class);
-        projectService.saveBatch(list);
-        return true;
-    }
-
 //    @PostMapping("/import")
 //    public Boolean imp(MultipartFile file) throws Exception{
 //        InputStream inputStream =file.getInputStream();
 //        ExcelReader reader = ExcelUtil.getReader(inputStream);
-//        //忽略表头中文，直接读取表的内容
-//        List<List<Object>> list =reader.read(1);
-//        List<Project> projects = CollUtil.newArrayList();
-//        for(List<Object> row: list)
-//        {
-//            Project project = new Project();
-//            project.setYear(Integer.valueOf(row.get(1).toString()));
-//            project.setProject_id(row.get(2).toString());
-//            project.setProject_type(row.get(3).toString());
-//            project.setProject_name(row.get(4).toString());
-//            project.setProject_grade(row.get(5).toString());
-//            project.setProject_leader(row.get(6).toString());
-//            project.setFunding_direct(Float.valueOf(row.get(7).toString()));
-//            project.setFunding_indirect(Float.valueOf(row.get(8).toString()));
-//            project.setStart_time(row.get(9).toString());
-//            project.setEnd_time(row.get(10).toString());
-//            project.setConclude_time(row.get(11).toString());
-//            project.setProject_join(row.get(12).toString());
-//            project.setProject_enter(row.get(13).toString());
-//
-//            projects.add(project);
-//        }
-//        projectService.saveBatch(projects);
+//    //通过javabean的方式读取Excel对象，要求表头必须英文，跟javabean属性对应
+//        //List<Project> list =reader.readAll(Project.class);
+//        List<Project> list = reader.read(1,1,Project.class);
+//        projectService.saveBatch(list);
 //        return true;
-//
 //    }
+
+    @PostMapping("/import")
+    public Boolean imp(MultipartFile file) throws Exception{
+        InputStream inputStream =file.getInputStream();
+        ExcelReader reader = ExcelUtil.getReader(inputStream);
+        //忽略表头中文，直接读取表的内容
+        List<List<Object>> list =reader.read(1);
+        List<Project> projects = CollUtil.newArrayList();
+        for(List<Object> row: list)
+        {
+            Project project = new Project();
+            project.setYear(Integer.valueOf(row.get(0).toString()));
+            project.setProject_id(row.get(1).toString());
+            project.setProject_type(row.get(2).toString());
+            project.setProject_name(row.get(3).toString());
+            project.setProject_grade(row.get(4).toString());
+            project.setProject_leader(row.get(5).toString());
+            project.setFunding_direct(Float.valueOf(row.get(6).toString()));
+            project.setFunding_indirect(Float.valueOf(row.get(7).toString()));
+            project.setStart_time(row.get(8).toString());
+            project.setEnd_time(row.get(9).toString());
+            project.setConclude_time(row.get(10).toString());
+            project.setProject_join(row.get(11).toString());
+            project.setProject_enter(row.get(12).toString());
+
+            projects.add(project);
+        }
+        projectService.saveBatch(projects);
+        return true;
+
+    }
 
     /**
      * 导出接口
