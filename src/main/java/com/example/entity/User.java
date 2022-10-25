@@ -27,6 +27,8 @@ public class User extends Model<User> {
 //    private String uid;
 
     private String phone;
+    private String name;
+
 //
 //    private String avatar;
 //    private String address;
