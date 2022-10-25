@@ -5,6 +5,16 @@ public class Result<T> {
     private String msg;
     private T data;
 
+//    public Result(String code, String msg, T data) {
+//        this.code = code;
+//        this.msg = msg;
+//        this.data = data;
+//    }
+
+//    public static Result success(String msg, Object data) {
+//        return new Result("200",msg,data);
+//    }
+
     public String getCode() {
         return code;
     }
