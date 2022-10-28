@@ -42,13 +42,13 @@ public class Project extends Model<Project> {
     private String projectEnter;
     private int year;
     private float projectScore;
-    private float state;
+    private String state;
 
     public void setProjectScore(float projectScore) {
         this.projectScore = projectScore;
     }
 
-    public void setState(float state) {
+    public void setState(String state) {
         this.state = state;
     }
 
