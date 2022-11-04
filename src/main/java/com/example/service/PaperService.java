@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.example.entity.Paper;
 import com.example.entity.PaperType;
 import com.example.mapper.PaperMapper;
-import com.example.mapper.PaperTypeMapper;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -19,9 +18,6 @@ public class PaperService extends ServiceImpl<PaperMapper, Paper> {
     @Resource
     private PaperMapper paperMapper;
 
-    @Resource
-    private PaperTypeMapper paperTypeMapper;
-
 
     /**
      * 查询所有paper
@@ -29,12 +25,6 @@ public class PaperService extends ServiceImpl<PaperMapper, Paper> {
      */
     public List<Paper> findAll(){
         List<Paper> papers = paperMapper.selectList(null);
-        for (Paper paper : papers) {
-            String paperId = paper.getPaperId();
-            HashMap<String, Object> map = new HashMap<>();
-            map.put("paper_id", paperId);
-            paper.setPaperType(paperTypeMapper.selectByMap(map).get(0));
-        }
         return papers;
 }
 
@@ -59,30 +49,17 @@ public class PaperService extends ServiceImpl<PaperMapper, Paper> {
     }
 
     /**
-     * 通过教师id查询paper
+     * 教师id查询
      * @param userId
      * @return
      */
-    public List<Paper> selectByUserId(int userId){
+    public List<Paper> selectById(int userId){
         HashMap<String, Object> map = new HashMap<>();
         map.put("userId", userId);
         return paperMapper.selectByMap(map);
     }
 
-    /**
-     * 按照论文id查paper
-     * @param paperId
-     * @return
-     */
-    public Paper selectByPaperId(Long paperId){
-        HashMap<String, Object> map = new HashMap<>();
-        map.put("paper_id", paperId);
 
-        List<Paper> papers = paperMapper.selectByMap(map);
-        List<PaperType> paperTypes = paperTypeMapper.selectByMap(map);
-        papers.get(0).setPaperType(paperTypes.get(0));
-        return papers.get(0);
-    }
 
 
 }
