@@ -1,15 +1,16 @@
 package com.example.service;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.entity.Writing;
-import com.example.mapper.WritingMapper;
+import com.example.entity.Teacher;
+import com.example.mapper.TeacherMapper;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
 @Service
-public class WritingService extends ServiceImpl<WritingMapper, Writing> {
+public class TeacherService extends ServiceImpl<TeacherMapper, Teacher> {
 
     @Resource
-    private WritingMapper writingMapper;
+    private TeacherMapper teacherMapper;
+
 }
