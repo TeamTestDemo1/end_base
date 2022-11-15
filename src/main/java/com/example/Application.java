@@ -2,8 +2,7 @@ package com.example;
 
 import com.example.entity.Paper;
 import com.example.entity.PaperScoreCalculate;
-import groovy.lang.Binding;
-import groovy.lang.GroovyShell;
+
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
