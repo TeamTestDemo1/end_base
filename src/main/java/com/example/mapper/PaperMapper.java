@@ -1,4 +1,5 @@
 package com.example.mapper;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import com.example.entity.PaperType;
 
@@ -11,6 +12,7 @@ import java.util.List;
 /**
 * @Entity com.example.entity.Paper
 */
+@Mapper
 public interface PaperMapper extends BaseMapper<Paper> {
 
     /*通过作者id与论文类型查询doi*/

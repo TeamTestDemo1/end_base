@@ -25,13 +25,8 @@ public class Project extends Model<Project> {
 
     private String projectId;
     private String projectName;
-
     private String startTime;
-
-
-
     private String endTime;
-
     private Float fundingDirect;
     private Float fundingIndirect;
     private String projectGrade;
