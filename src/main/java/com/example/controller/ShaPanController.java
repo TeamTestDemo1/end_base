@@ -1,22 +1,18 @@
 package com.example.controller;
 
 import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.io.IoUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.poi.excel.ExcelReader;
 import cn.hutool.poi.excel.ExcelUtil;
 import cn.hutool.poi.excel.ExcelWriter;
-import com.auth0.jwt.JWT;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.common.Result;
 import com.example.entity.ShaPan;
-import com.example.entity.User;
 import com.example.service.ShaPanService;
-import com.example.service.UserService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -148,5 +144,33 @@ public class ShaPanController {
     {
         return Result.success(shaPanService.countA());
     }
-    
+    @PostMapping("/calculate")
+    public Result calculate(@RequestBody ShaPan shaPan)
+    {
+        String courseName = shaPan.getClassName();
+        Integer trueScore = shaPan.getTrueScore();
+        double xishu = 0.0;
+        if(courseName.equals("企业经营模拟")) xishu = 1.5;
+        else xishu = 1.0;
+        double bounce = trueScore * xishu;
+        shaPan.setBounce(bounce);
+        return Result.success("核算成功",shaPanService.updateById(shaPan));
+    }
+    @PostMapping("/calculateAll")
+    public Result calculate(@RequestBody List<ShaPan> list)
+    {
+        for(int i = 0; i < list.size(); i ++)
+        {
+            ShaPan shaPan = list.get(i);
+            String courseName = shaPan.getClassName();
+            Integer trueScore = shaPan.getTrueScore();
+            double xishu = 0.0;
+            if(courseName.equals("企业经营模拟")) xishu = 1.5;
+            else xishu = 1.0;
+            double bounce = trueScore * xishu;
+            shaPan.setBounce(bounce);
+            shaPanService.updateById(shaPan);
+        }
+        return Result.success("一件核算成功");
+    }
 }

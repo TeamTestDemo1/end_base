@@ -1,9 +1,20 @@
 package com.example.common;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
 public class Result<T> {
     private String code;
     private String msg;
     private T data;
+
+
+
+    public static<T> Result success(String msg, T data) {
+        return new Result("200",msg,data);
+    }
 
 //    public Result(String code, String msg, T data) {
 //        this.code = code;
@@ -37,9 +48,6 @@ public class Result<T> {
 
     public void setData(T data) {
         this.data = data;
-    }
-
-    public Result() {
     }
 
     public Result(T data) {

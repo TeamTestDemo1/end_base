@@ -4,7 +4,6 @@ import com.example.entity.Paper;
 import com.example.entity.PaperScoreCalculate;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
-import sun.font.TrueTypeFont;
 
 import java.util.ArrayList;
 import java.util.HashMap;

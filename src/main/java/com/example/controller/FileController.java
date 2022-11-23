@@ -11,7 +11,6 @@ import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.File;
 import java.io.OutputStream;
 import java.net.URLEncoder;
 import java.util.List;
@@ -40,7 +39,7 @@ public class FileController {
         } catch (Exception e) {
             System.err.println(fileName + "--文件上传失败");
         }
-        return Result.success(flag);
+        return Result.success("http://localhost:9999/files/"+flag);
     }
 
     /**

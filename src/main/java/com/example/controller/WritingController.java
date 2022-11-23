@@ -160,21 +160,33 @@ public class WritingController {
         writer.close();
     }
 
-//    /**
-//     * 计算分数接口
-//     * @param project
-//     * @return
-//     */
-//    @PostMapping("/calculation")
-//    public Result calculation(@RequestBody Project project) {
-//        String type = project.getProject_type();
-//        String grade = project.getProject_grade();
-//        Integer id = project.getId();
-//        Project_score selectscore =projectService.selectscore(type,grade,id);
-//        project.setProject_score(selectscore.getScore());
-//        System.out.println(selectscore.getScore());
-//        return Result.success(projectService.updateById(project));
-//    }
+    /**
+     * 计算分数接口
+     * @param writing
+     * @return
+     */
+    @PostMapping("/calculation")
+    public Result calculation(@RequestBody Writing writing){
+        String type =writing.getWriting_type();
+        Double number = Double.valueOf(writing.getWriting_number());
+        Double score;
+        Double factor;
+        if(type.equals("著作")){
+            factor=0.02;
+            score=factor*number;
+            writing.setWriting_score(score);
+        }
+        if(type.equals("教材")){
+            factor=0.01;
+            Integer is_national = writing.getIs_national();
+            score=factor*number;
+            if(is_national==1){
+                score=score+3;
+            }
+            writing.setWriting_score(score);
+        }
+        return Result.success(writingService.updateById(writing));
+    }
 //
 //    @PostMapping("/all")
 //    public Result calculationAll(@RequestBody List<Project> list){

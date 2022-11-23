@@ -11,10 +11,11 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.common.Result;
+import com.example.entity.ComputerPractice;
 import com.example.service.ComputerPracticeService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import com.example.entity.ComputerPractice;
+
 import javax.annotation.Resource;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
@@ -145,4 +146,41 @@ public class ComputerPracticeController {
     {
         return Result.success(computerPracticeService.countAll());
     }
+
+    @PostMapping("/calculate")
+    public Result calculate(@RequestBody ComputerPractice computerPractice)
+    {
+        String className = computerPractice.getClassName();
+        String[] split = className.split(",");
+        Integer computerTime = computerPractice.getComputerTime();
+        double xishu;
+        if(split.length == 1) xishu = 0.5;
+        else if(split.length == 2) xishu = 0.7;
+        else if(split.length == 3) xishu = 0.9;
+        else xishu = 1.1;
+        double bounce = computerTime * xishu;
+        computerPractice.setComputerpraticeBounce(bounce);
+        return Result.success("成功",computerPracticeService.updateById(computerPractice));
+    }
+
+    @PostMapping("/calculateAll")
+    public Result calculate(@RequestBody List<ComputerPractice> list)
+    {
+        for (int i = 0; i < list.size(); i++) {
+            ComputerPractice computerPractice = list.get(i);
+            String className = computerPractice.getClassName();
+            String[] split = className.split(",");
+            Integer computerTime = computerPractice.getComputerTime();
+            double xishu;
+            if(split.length == 1) xishu = 0.5;
+            else if(split.length == 2) xishu = 0.7;
+            else if(split.length == 3) xishu = 0.9;
+            else xishu = 1.1;
+            double bounce = computerTime * xishu;
+            computerPractice.setComputerpraticeBounce(bounce);
+            computerPracticeService.updateById(computerPractice);
+        }
+        return Result.success("成功");
+    }
+
 }

@@ -143,4 +143,24 @@ public class PracticeController {
         return Result.success(practiceService.countA());
     }
 
+    @PostMapping("/calculate")
+    //前端传数据，每个实践赋值为8个工作量
+    public Result calculate(@RequestBody Practice practice)
+    {
+        practice.setBounce(8.00);
+        return Result.success("计算成功",practiceService.updateById(practice));
+    }
+
+    @PostMapping("/calculateAll")
+    //前端传数组，一件核算工作量
+    public Result calculateAll(@RequestBody List<Practice> list)
+    {
+        for(int i = 0; i < list.size(); i++)
+        {
+            Practice practice = list.get(i);
+            practice.setBounce(8.00);
+            practiceService.updateById(practice);
+        }
+        return Result.success("一件核算成功");
+    }
 }
