@@ -4,16 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebe11869-a275-413a-9a53-493a64e7c07f" name="变更" comment="数据库修改后的项目，请大家重新以这个为基础写代码">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/User.class" afterDir="false" />
-    </list>
+    <list default="true" id="ebe11869-a275-413a-9a53-493a64e7c07f" name="变更" comment="数据库修改后的项目，请大家重新以这个为基础写代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="assessment@rm-bp10k0w05n83wz4af0o.mysql.rds.aliyuncs.com" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="assessment@rm-bp10k0w05n83wz4af0o.mysql.rds.aliyuncs.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="assessment@rm-bp10k0w05n83wz4af0o.mysql.rds.aliyuncs.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="assessment: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="assessment@rm-bp10k0w05n83wz4af0o.mysql.rds.aliyuncs.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="assessment: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="paper_chinese: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="end_base" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -37,12 +79,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2A0jXTLY9l753lFVspZFptZbi8a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -50,12 +95,42 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/common" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\综合考核系统\end_base\src\main\java\com\example\entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\综合考核系统\end_base\src\main\java\com\example\common" />
+      <recent name="D:\综合考核系统\end_base\src\main\java\generator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="end_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="end" />
       <extension name="coverage">
@@ -71,11 +146,27 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="应用程序级" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="ebe11869-a275-413a-9a53-493a64e7c07f" name="变更" comment="" />
@@ -101,6 +192,17 @@
       <workItem from="1664525504848" duration="1209000" />
       <workItem from="1665675250204" duration="65000" />
       <workItem from="1665734469827" duration="7000000" />
+      <workItem from="1667878116746" duration="112000" />
+      <workItem from="1667878245609" duration="613000" />
+      <workItem from="1668153025625" duration="9490000" />
+      <workItem from="1668251072293" duration="412000" />
+      <workItem from="1668252063677" duration="8065000" />
+      <workItem from="1668477840782" duration="5707000" />
+      <workItem from="1668737129911" duration="46000" />
+      <workItem from="1668750105137" duration="10886000" />
+      <workItem from="1669183488352" duration="13710000" />
+      <workItem from="1669392355769" duration="18345000" />
+      <workItem from="1669911747012" duration="7527000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交后端代码">
       <created>1663316686582</created>
@@ -130,11 +232,18 @@
       <option name="project" value="LOCAL" />
       <updated>1665752477918</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改了数据表">
+      <created>1667878826804</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667878826804</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -142,17 +251,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -173,11 +272,106 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一次提交后端代码" />
     <MESSAGE value="数据库修改后的项目，请大家重新以这个为基础写代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据库修改后的项目，请大家重新以这个为基础写代码" />
+    <MESSAGE value="修改了数据表" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了数据表" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="593" y="73" key="#Application" timestamp="1667878136938">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="593" y="73" key="#Application/0.0.1536.824@0.0.1536.824" timestamp="1667878136938" />
+    <state x="223" y="67" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1669190500728">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1669190500728" />
+    <state x="482" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1669958100165">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="482" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1669958100165" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1669435038619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1669435038619" />
+    <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1667878152341">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1667878152341" />
+    <state x="548" y="297" width="439" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1669190649064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="297" width="439" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1669190649064" />
+    <state x="442" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1668153906317">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1668153906317" />
+    <state x="305" y="5" key="CommitChangelistDialog2" timestamp="1668153146975">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="305" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1668153146975" />
+    <state width="1492" height="594" key="GridCell.Tab.0.bottom" timestamp="1669958086354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
+    <state width="1492" height="594" key="GridCell.Tab.0.center" timestamp="1669958086354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
+    <state width="1492" height="594" key="GridCell.Tab.0.left" timestamp="1669958086354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
+    <state width="1492" height="594" key="GridCell.Tab.0.right" timestamp="1669958086354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
+    <state width="1492" height="594" key="GridCell.Tab.1.bottom" timestamp="1669958086354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
+    <state width="1492" height="594" key="GridCell.Tab.1.center" timestamp="1669958086354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
+    <state width="1492" height="594" key="GridCell.Tab.1.left" timestamp="1669958086354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
+    <state width="1492" height="594" key="GridCell.Tab.1.right" timestamp="1669958086354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="594" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1668758781708">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1668758781708" />
+    <state x="349" y="67" key="com.intellij.database.dbimport.ImportDialog" timestamp="1668479050031">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="67" key="com.intellij.database.dbimport.ImportDialog/0.0.1536.824@0.0.1536.824" timestamp="1668479050031" />
+    <state x="548" y="234" width="439" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1669191132712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="234" width="439" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.824@0.0.1536.824" timestamp="1669191132712" />
+    <state x="161" y="53" width="580" height="719" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1669421517226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="161" y="53" width="580" height="719" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1669421517226" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1669911750335">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1669911750335" />
+    <state x="470" y="39" key="refactoring.ChangeSignatureDialog" timestamp="1668479897808">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="39" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1668479897808" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1668759182342">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1668759182342" />
   </component>
 </project>
