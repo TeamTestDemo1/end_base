@@ -4,7 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebe11869-a275-413a-9a53-493a64e7c07f" name="变更" comment="数据库修改后的项目，请大家重新以这个为基础写代码" />
+    <list default="true" id="ebe11869-a275-413a-9a53-493a64e7c07f" name="变更" comment="论文项目所有">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/common/Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/PaperChineseScoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/PaperEnglishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/PaperEnglishScoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/PaperChinese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/ScoreRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mapper/PaperChineseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mapper/PaperEnglishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mapper/ScoreRuleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/PaperChineseScoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/PaperChineseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/PaperEnglishScoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/PaperEnglishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generator/domain/PaperChinese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generator/domain/PaperEnglish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generator/entity/PaperChinese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generator/entity/PaperEnglish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generator/papercheck.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1786befd-ce7f-410c-bfaa-b98a45fd10f4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1786befd-ce7f-410c-bfaa-b98a45fd10f4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1786befd-ce7f-410c-bfaa-b98a45fd10f4/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1786befd-ce7f-410c-bfaa-b98a45fd10f4/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac896d2-bd6b-4b88-9caf-e63614d871f7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac896d2-bd6b-4b88-9caf-e63614d871f7/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac896d2-bd6b-4b88-9caf-e63614d871f7/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ac896d2-bd6b-4b88-9caf-e63614d871f7/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8970c0ca-a6be-4a60-ab0d-b03846d17e02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8970c0ca-a6be-4a60-ab0d-b03846d17e02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Paper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/PaperEnglish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/PaperEnglish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/PaperType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/PaperMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/PaperTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mapper/PermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mapper/PermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/PaperScoreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/PaperService.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,13 +81,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="assessment: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="assessment@rm-bp10k0w05n83wz4af0o.mysql.rds.aliyuncs.com" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="assessment: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="paper_chinese: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -61,6 +98,13 @@
     <favorite-branches>
       <branch-storage>
         <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="wang" />
+              </list>
+            </value>
+          </entry>
           <entry type="REMOTE">
             <value>
               <list>
@@ -98,7 +142,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/controller" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -109,12 +153,20 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\综合考核系统\end_base\src\main\java\com\example\entity" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\综合考核系统\end_base\src\main\java\com\example\controller" />
+      <recent name="D:\综合考核系统\end_base\src\main\java\com\example\entity" />
       <recent name="D:\综合考核系统\end_base\src\main\java\com\example\common" />
       <recent name="D:\综合考核系统\end_base\src\main\java\generator" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\综合考核系统\end_base\src\main\java\com\example\service" />
+      <recent name="D:\综合考核系统\end_base\src\main\java\com\example\controller" />
+      <recent name="D:\综合考核系统\end_base\src\main\java\com\example\mapper" />
+      <recent name="D:\综合考核系统\end_base\src\main\java\com\example\entity" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application (1)">
@@ -202,7 +254,7 @@
       <workItem from="1668750105137" duration="10886000" />
       <workItem from="1669183488352" duration="13710000" />
       <workItem from="1669392355769" duration="18345000" />
-      <workItem from="1669911747012" duration="7527000" />
+      <workItem from="1669911747012" duration="8883000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交后端代码">
       <created>1663316686582</created>
@@ -251,6 +303,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/wang" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -262,6 +325,21 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/wang" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="wang" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="master" />
@@ -278,7 +356,8 @@
     <MESSAGE value="第一次提交后端代码" />
     <MESSAGE value="数据库修改后的项目，请大家重新以这个为基础写代码" />
     <MESSAGE value="修改了数据表" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了数据表" />
+    <MESSAGE value="论文项目所有" />
+    <option name="LAST_COMMIT_MESSAGE" value="论文项目所有" />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="73" key="#Application" timestamp="1667878136938">
@@ -289,10 +368,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1669190500728" />
-    <state x="482" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1669958100165">
+    <state x="482" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1669958201333">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="482" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1669958100165" />
+    <state x="482" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1669958201333" />
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1669435038619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -309,42 +388,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="442" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1668153906317" />
-    <state x="305" y="5" key="CommitChangelistDialog2" timestamp="1668153146975">
+    <state x="305" y="5" key="CommitChangelistDialog2" timestamp="1669958355790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="305" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1668153146975" />
-    <state width="1492" height="594" key="GridCell.Tab.0.bottom" timestamp="1669958086354">
+    <state x="305" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1669958355790" />
+    <state x="41" y="62" key="DiffContextDialog" timestamp="1669958325813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="594" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
-    <state width="1492" height="594" key="GridCell.Tab.0.center" timestamp="1669958086354">
+    <state x="41" y="62" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1669958325813" />
+    <state width="1477" height="587" key="GridCell.Tab.0.bottom" timestamp="1669959512281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="594" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
-    <state width="1492" height="594" key="GridCell.Tab.0.left" timestamp="1669958086354">
+    <state width="1477" height="587" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669959512281" />
+    <state width="1477" height="587" key="GridCell.Tab.0.center" timestamp="1669959512281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="594" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
-    <state width="1492" height="594" key="GridCell.Tab.0.right" timestamp="1669958086354">
+    <state width="1477" height="587" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1669959512281" />
+    <state width="1477" height="587" key="GridCell.Tab.0.left" timestamp="1669959512281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="594" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
-    <state width="1492" height="594" key="GridCell.Tab.1.bottom" timestamp="1669958086354">
+    <state width="1477" height="587" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1669959512281" />
+    <state width="1477" height="587" key="GridCell.Tab.0.right" timestamp="1669959512281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="594" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
-    <state width="1492" height="594" key="GridCell.Tab.1.center" timestamp="1669958086354">
+    <state width="1477" height="587" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1669959512281" />
+    <state width="1477" height="587" key="GridCell.Tab.1.bottom" timestamp="1669959512281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="594" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
-    <state width="1492" height="594" key="GridCell.Tab.1.left" timestamp="1669958086354">
+    <state width="1477" height="587" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1669959512281" />
+    <state width="1477" height="587" key="GridCell.Tab.1.center" timestamp="1669959512281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="594" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
-    <state width="1492" height="594" key="GridCell.Tab.1.right" timestamp="1669958086354">
+    <state width="1477" height="587" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1669959512281" />
+    <state width="1477" height="587" key="GridCell.Tab.1.left" timestamp="1669959512281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="594" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1669958086354" />
+    <state width="1477" height="587" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1669959512281" />
+    <state width="1477" height="587" key="GridCell.Tab.1.right" timestamp="1669959512281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1477" height="587" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1669959512281" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1668758781708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
